@@ -12,6 +12,9 @@ public class TesteReferencias {
 		Funcionario f = new Funcionario();
 		f.setSalario(2000.0);
 		
+		Designer d = new Designer();
+		d.setSalario(2000.0);
+		
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(2500.0);
 		
@@ -19,6 +22,7 @@ public class TesteReferencias {
 		controleBonificacao.registra(g1);
 		controleBonificacao.registra(f);
 		controleBonificacao.registra(ev);
+		controleBonificacao.registra(d);
 		
 		System.out.println(controleBonificacao.getSoma());
 		
