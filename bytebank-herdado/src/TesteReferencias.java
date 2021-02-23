@@ -9,8 +9,7 @@ public class TesteReferencias {
 		g1.setNome("Marcos");
 		g1.setSalario(5000.0);
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000.0);
+		
 		
 		Designer d = new Designer();
 		d.setSalario(2000.0);
@@ -20,7 +19,6 @@ public class TesteReferencias {
 		
 		ControleBonificacao controleBonificacao = new ControleBonificacao();		
 		controleBonificacao.registra(g1);
-		controleBonificacao.registra(f);
 		controleBonificacao.registra(ev);
 		controleBonificacao.registra(d);
 		
