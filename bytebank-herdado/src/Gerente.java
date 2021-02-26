@@ -1,5 +1,6 @@
-// gerente é um FuncionarioAutenticavel, gerente herda da class FuncionarioAutenticavel
-public class Gerente extends FuncionarioAutenticavel{
+// Gerente é um funcionário, Gerente herda da classe Funcionário, e assina o 
+// contrato Autenticavel
+public class Gerente extends Funcionario implements Autenticavel{
 	
 	private int senha;
 	
